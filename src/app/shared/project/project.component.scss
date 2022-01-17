@@ -1,0 +1,39 @@
+.project {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    max-width: 19rem;
+
+    .project-image {
+        min-height: 12rem;
+        border: 1px solid #f8f8f8;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+    button {
+        margin-bottom: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

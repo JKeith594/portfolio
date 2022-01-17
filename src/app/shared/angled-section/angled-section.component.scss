@@ -1,0 +1,86 @@
+section.angled-section {
+    position: relative;
+    padding:3rem 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    &:before {
+        content: '';
+        
+        height:4rem;
+        display: block;
+        clip-path: polygon(0% 100%, 100% 0, 100% 100%);
+        position: absolute;
+        top: -4rem;
+        right:0;
+        left:0;
+        z-index: -1;
+    }
+    &:after {
+        content: '';
+        height:4rem;
+        display: block;
+        clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+        position: absolute;
+        bottom: -4rem;
+        right:0;
+        left:0;
+        z-index: -1;
+    }
+
+    &.teal-gradient {
+        background: rgb(1,48,51);
+        background: linear-gradient(180deg, rgba(1,48,51,1) 0%, rgba(27,2,27,1) 100%);
+        &:before {
+            background:rgba(1,48,51,1);
+        }
+
+        &:after {
+            background:rgba(27,2,27,1);
+        }
+    }
+
+    &.salmon-gradient {
+        background: rgb(124,40,29);
+        background: linear-gradient(180deg, rgba(124,40,29,1) 0%, rgba(15,46,48,1) 100%); 
+        &:before {
+            background:rgb(124,40,29);
+        }
+
+        &:after {
+            background:rgba(15,46,48,1);
+        }
+    }
+
+    &.blu-gradient {
+        background: rgb(32,45,109);
+        background: linear-gradient(180deg, rgba(32,45,109,1) 0%, rgba(62,24,76,1) 100%); 
+        &:before {
+            background:rgb(32,45,109);
+        }
+
+        &:after {
+            background:rgba(62,24,76,1);
+        }
+    }
+
+    .section-heading {
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    ul.projects {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}

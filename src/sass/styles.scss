@@ -1,0 +1,39 @@
+body {
+    font-family: 'Khula', sans-serif;
+}
+
+* {
+    transition: 0.15s ease;
+}
+
+button {
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        color: #000;
+        background: #fff;
+    }
+
+    i {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+p {
+    line-height: 1.75rem;
+}
+
+.bubble-content {
+    p {
+        margin-left: 2rem;
+        margin-bottom: 1.25rem;
+    }
+}
