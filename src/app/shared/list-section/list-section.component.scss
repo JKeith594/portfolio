@@ -1,21 +1,45 @@
+@import "../../../sass/mixins";
+
 section.list-section {
-    padding: 0 4rem;
+    @extend .standard-side-padding;
     z-index: 12;
     margin-bottom: 8rem;
     h1 {
         font-weight: 800;
         font-size: 3rem;
         margin-bottom: 1.5rem;
+        text-align: center;
     }
 
     ul {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        //grid-template-columns: repeat(4, 1fr);
+        column-gap: 1rem;
+        row-gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
 
+        @include breakpoint(500px, min) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include breakpoint(750px, min) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include breakpoint(950px, min) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include breakpoint(1100px, min) {
+            grid-template-columns: repeat(5, 1fr);
+        }
+        
         li {
             display: flex;
             flex-direction: column;
             align-items: center;
+            
             div {
                 z-index: 2;
                 border: 0.25rem solid #f8f8f8;
@@ -27,6 +51,11 @@ section.list-section {
                 justify-content: center;
                 font-weight: 800;
                 font-size: 2.25rem;
+
+                @include lightmode() {
+                    border: 0.25rem solid #000000;
+                }
+
                 span {
                     display: block;
                     margin-top: 0.5rem;
@@ -57,18 +86,24 @@ section.list-section {
             }
 
             h2 {
+                box-sizing: border-box;
                 z-index: 1;
                 width: 100%;
                 text-align: center;
                 margin-top: -0.75rem;
                 font-weight: 600;
                 font-size: 1.35rem;
-                margin-bottom: 0.5rem;
+                margin-bottom: 0;
                 background: #fff;
                 color: #000;
                 padding: 1rem;
                 padding-bottom: 0.5rem;
                 border-radius: 1rem;
+
+                @include lightmode() {
+                    color: #fff;
+                    background: #000;
+                }
 
                 span {
                     margin-top: 0.25rem;

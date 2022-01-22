@@ -1,0 +1,33 @@
+@mixin breakpoint($breakpoint, $direction) {
+    @if $direction == max {
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    } @else if $direction == min {      
+        @media (min-width: $breakpoint) {
+            @content;
+        }
+    }  
+}
+
+.standard-side-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include breakpoint(950px, min) {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@mixin darkmode() {
+    @media (prefers-color-scheme: dark) {
+        @content;
+    }
+}
+
+@mixin lightmode() {
+    @media (prefers-color-scheme: light) {
+        @content;
+    }
+}

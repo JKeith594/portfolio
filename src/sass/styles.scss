@@ -1,3 +1,5 @@
+@import "_mixins.scss";
+
 body {
     font-family: 'Khula', sans-serif;
 }
@@ -33,7 +35,12 @@ p {
 
 .bubble-content {
     p {
-        margin-left: 2rem;
+        margin-left: 0;
         margin-bottom: 1.25rem;
+        
+        @include breakpoint(920px, min) {
+            margin-left: 2rem;
+            
+        }
     }
 }

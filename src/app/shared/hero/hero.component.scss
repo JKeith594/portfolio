@@ -1,5 +1,7 @@
+@import "../../../sass/mixins";
+
 section.hero {
-    padding:0 4rem;
+    @extend .standard-side-padding;
     min-height: 32rem;
     background: rgb(173,0,255);
     background: linear-gradient(135deg, rgba(173,0,255,1) 0%, rgba(255,92,0,1) 100%);
@@ -8,7 +10,11 @@ section.hero {
     justify-content: center;
 
     .content {
-        margin-top: 8rem;
+        margin-top: 2rem;
+        @include breakpoint(920px, min) {
+            margin-top: 8rem;
+        }
+        
         
         h1 {
             font-size: 2.25rem;

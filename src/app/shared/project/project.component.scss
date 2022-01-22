@@ -1,9 +1,15 @@
+@import "../../../sass/mixins";
+
 .project {
     border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    max-width: 19rem;
+
+    @include lightmode() {
+        color: #000;
+        border: 1px solid #000;
+    }
 
     .project-image {
         min-height: 12rem;
@@ -12,6 +18,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include lightmode() {
+            border: 1px solid #000;
+        }
     }
 
     h1 {

@@ -1,3 +1,5 @@
+@import "../../../../sass/mixins";
+
 nav {
     button.hamburger {
         display: none;
@@ -26,6 +28,15 @@ nav {
                 &:hover {
                     color: #fff;
                 }
+
+                @include lightmode() {
+                    color: #000;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+
             }
         }
     }

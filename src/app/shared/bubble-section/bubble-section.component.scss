@@ -1,12 +1,32 @@
+@import "../../../sass/mixins";
+
 section.bubble-section {
     padding: 4rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @include breakpoint(920px, min) {
+        flex-direction: row;
+        align-items: left;
+        text-align: left;
+    }
+    
     img {
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
-        margin-right: 3rem;
+        margin-right: 0;
+        margin-bottom: 3rem;
         border: 0.25rem solid #fff;
+
+        @include lightmode() {
+            border: 0.25rem solid #000;
+        }
+
+        @include breakpoint(920px, min) {
+            margin-right: 3rem;
+        }
 
         &.right {
             order: 1;
