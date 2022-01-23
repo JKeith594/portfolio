@@ -1,0 +1,48 @@
+{
+    "title": "Programming",
+    "subtitle": "2015 - Present",
+    "projects": [
+        {
+            "title": "Dial-Up Simulator",
+            "date": "2020 | C#",
+            "description": "Party like it's 1999! This program allows you to simulate the joys of connecting to the internet through dial-up by playing authentic modem noises. It can even enable/disable your network adapter if you want an even more realistic experience!",
+            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "links": [
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "Learn More on Github",
+                    "url": "https://github.com/JKeith594/dialupsimulator"
+                }
+            ]
+        },
+        {
+            "title": "ColorBlock Screensaver",
+            "date": "2016 | C#",
+            "description": "Remember screensavers? This little screensaver stops your screen from getting burn-in by displaying a random assortment of colors dancing across the screen. It can even show the hex code for all the graphic designer nerds out there!",
+            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "links": [
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "Learn More on Github",
+                    "url": "https://github.com/JKeith594/ColorBlockScreensaver"
+                }
+            ]
+        },
+        {
+            "title": "Anchor",
+            "date": "2015 | C#",
+            "description": "First Place Winner of the 2015 USF Program-A-Bull Hackathon! This Universal Windows Platform app shows what could be possible with a touch-first HTML editor. Features an easy swipe-to-preview feature and ink markup!",
+            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "links": [
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "Learn More on Github",
+                    "url": "https://github.com/JKeith594/anchor"
+                }
+            ]
+        }
+    ]
+}

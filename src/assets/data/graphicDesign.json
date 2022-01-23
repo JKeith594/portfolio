@@ -1,0 +1,68 @@
+{
+    "title": "Graphic Design",
+    "subtitle": "2010 - 2016",
+    "projects": [
+        {
+            "title": "Packard Bell Restore",
+            "date": "2022",
+            "description": "I love retro technology. I restored an old Packard Bell 812 CD desktop to be almost like new!",
+            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See More on Imgur",
+                    "url": "https://imgur.com/a/GL0yOwR"
+                }
+            ]
+        },
+        {
+            "title": "Macintosh Pi",
+            "date": "2020",
+            "description": "A \"Mac Mini\" in a whole different way! This half scale replica of the Macintosh LC 520 runs off a Raspberry Pi and features a 7\" LCD.",
+            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See More on Imgur",
+                    "url": "https://imgur.com/a/VPnubY3"
+                }
+            ]
+        },
+        {
+            "title": "The Rock Clock",
+            "date": "2020",
+            "description": "Featured in the Tampa Bay Times! This interactive jukebox showcases 12 of my favorite records on a giant 7 foot tall \"clock\"!",
+            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "Read the TBT Article",
+                    "url": "https://www.tampabay.com/life-culture/2020/08/27/coronavirus-hobbies-what-tampa-bay-residents-made-during-the-pandemic/"
+                },
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See More on Imgur",
+                    "url": "https://imgur.com/gallery/3NY7edR"
+                }
+            ]
+        },
+        {
+            "title": "Retro_Arcade",
+            "date": "2015",
+            "description": "A mini arcade cabinet! This was one of my first projects with a Raspberry Pi.",
+            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See More on Imgur",
+                    "url": "https://imgur.com/a/BYfqH"
+                }
+            ]
+        }
+    ]
+}

@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+    height: 100%;
+    justify-content: space-between;
 
     @include lightmode() {
         color: #000;
@@ -12,12 +14,15 @@
     }
 
     .project-image {
-        min-height: 12rem;
+        height: 12rem;
+        overflow: hidden;
         border: 1px solid #f8f8f8;
         margin-bottom: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-position: center center;
+        background-size: cover;
 
         @include lightmode() {
             border: 1px solid #000;
@@ -25,13 +30,13 @@
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         font-weight: 800;
         margin-bottom: 0.5rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 800;
         margin-bottom: 1rem;
     }
@@ -39,7 +44,7 @@
     p {
         margin-bottom: 1rem;
     }
-    button {
+    a.button-link {
         margin-bottom: 1rem;
 
         &:last-child {

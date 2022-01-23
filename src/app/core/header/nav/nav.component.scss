@@ -2,22 +2,93 @@
 
 nav {
     button.hamburger {
-        display: none;
+        transition: all 0.25s ease;
+        opacity: 0;
+        display: inline-block;
         font-size: 2rem;
         background: none;
         border: none;
         color: #fff;
         cursor: pointer;
         padding: 0.5rem;
+        width:3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        text-align: center;
+        background: none;
+        i {
+            margin-right: 0;
+            display: block;
+        }
+
         &:hover {
-            background: #f60;
+            background: linear-gradient(135deg, rgba(173,0,255,1) 0%, rgba(255,92,0,1) 100%);
+        }
+
+        &.visible {
+            opacity: 1;
+        }
+
+        @include breakpoint(1023px, min) {
+            display: none;
         }
     }
     ul {
-        //display: none;
-        li {
+        margin-right: -1rem;
+        @include breakpoint(1023px, max) {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        &.visible {
+            @include breakpoint(1023px, max) {
+                width: auto;
+                height: auto;
+                padding: 2rem 2.5rem;
+                display: block;
+                opacity: 1;
+                position: fixed;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                padding-top: 2rem;
+                background: rgba(0,0,0,0.7);
+                z-index: 999;
+                align-items: flex-end;
+                li {
+                    i {
+                        font-size: 2rem;
+                    }
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+        @include breakpoint(1023px, min) {
             display: inline-block;
-            margin-left: 3rem;
+        }
+        li {
+            &.invisible {
+                @include breakpoint(1023px, min) {
+                    display: none;
+                }
+                
+            }
+            border-radius: 2rem;
+
+            &:hover {
+                background: linear-gradient(135deg, rgba(173,0,255,1) 0%, rgba(255,92,0,1) 100%);
+            }
+            
+            padding: 1rem;
+            padding-bottom: 0.6rem;
+            vertical-align: bottom;
+            display: inline-block;
+            margin-left: 2rem;
 
             a {
                 text-decoration: none;

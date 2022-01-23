@@ -1,10 +1,13 @@
 <div class="project">
-    <div class="project-image">
-        Image Goes Here
+    <div class="details">
+        <div class="project-image" style="background-image: url({{project.imageUrl}});">
+            <p class="sr-only">Image of {{project.title}}</p>
+        </div>
+        <h1>{{project.title}}</h1>
+        <h2>{{project.date}}</h2>
+        <p>{{project.description}}</p>
     </div>
-    <h1>Bravewater</h1>
-    <h2>2016 - Present</h2>
-    <p>I'm baby kickstarter cred succulents heirloom excepteur nulla vice austin pitchfork qui adaptogen taiyaki vegan pariatur.</p>
-    <button>Learn More</button>
-    <button><i class="fab fa-github-square"></i>View on GitHub</button>
+    <div class="buttons">
+        <a class="button-link" *ngFor="let link of project.links" href="{{link.url}}" target="_blank"><i *ngIf="link.useIcon" [ngClass]="link.icon"></i><span>{{link.text}}</span></a>
+    </div>
 </div>

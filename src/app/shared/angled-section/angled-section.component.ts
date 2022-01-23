@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ProjectSection } from '../classes/project_section';
 
 @Component({
   selector: 'app-angled-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./angled-section.component.scss']
 })
 export class AngledSectionComponent implements OnInit {
+
+  @Input() projectSection: ProjectSection = null!;
+  @Input() sectionColor: string = "";
 
   constructor() { }
 
