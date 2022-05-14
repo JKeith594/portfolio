@@ -1,0 +1,29 @@
+{
+    "title": "Contact Me!",
+    "items": [
+        {
+            "title": "GitHub",
+            "subTitle": "Tap to Visit",
+            "useIconClass": true,
+            "icon": "fab fa-github",
+            "color": "#001d34",
+            "url": "https://github.com/JKeith594"
+        },
+        {
+            "title": "YouTube",
+            "subTitle": "Tap to Visit",
+            "useIconClass": true,
+            "icon": "fab fa-youtube",
+            "color": "#ff0000",
+            "url": "https://www.youtube.com/channel/UCxnB9MLP8XFl2CcmcGR5Y_A"
+        },
+        {
+            "title": "LinkedIn",
+            "subTitle": "Tap to Visit",
+            "useIconClass": true,
+            "icon": "fab fa-linkedin",
+            "color": "#175ca5",
+            "url": "https://www.linkedin.com/in/jkeith594/"
+        }
+    ]
+}

@@ -1,66 +1,171 @@
 {
     "title": "Graphic Design",
     "subtitle": "2010 - 2016",
+    "description": "Alongside learning web development in high school, I also learned how to do graphic design, which I have found to make me an even better web designer/developer! Below are some of the best works I've made throughout the years.",
     "projects": [
         {
-            "title": "Packard Bell Restore",
-            "date": "2022",
-            "description": "I love retro technology. I restored an old Packard Bell 812 CD desktop to be almost like new!",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "title": "Sonic The Hedgehog Poster/Blanket",
+            "date": "2016",
+            "description": "Sonic has been one of my favorite game series of all time, and it is my friend's as well! This originally started as a poster, then after a suggestion from another friend became a blanket!",
+            "imageUrl": "assets/images/projects/design/sonic.jpg",
             "links": [
                 {
                     "useIcon": false,
-                    "icon": "",
-                    "text": "See More on Imgur",
-                    "url": "https://imgur.com/a/GL0yOwR"
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/sonic.jpg"
                 }
             ]
         },
         {
-            "title": "Macintosh Pi",
-            "date": "2020",
-            "description": "A \"Mac Mini\" in a whole different way! This half scale replica of the Macintosh LC 520 runs off a Raspberry Pi and features a 7\" LCD.",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "title": "Net Neutrality Poster",
+            "date": "2016",
+            "description": "In my \"Communications for Engineers\" class in college, we had to create an infographic for a tech topic. This was the poster we had printed for our presentation. I think we got an A!",
+            "imageUrl": "assets/images/projects/design/infographic.png",
             "links": [
                 {
                     "useIcon": false,
-                    "icon": "",
-                    "text": "See More on Imgur",
-                    "url": "https://imgur.com/a/VPnubY3"
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/infographic.png"
                 }
             ]
         },
         {
-            "title": "The Rock Clock",
-            "date": "2020",
-            "description": "Featured in the Tampa Bay Times! This interactive jukebox showcases 12 of my favorite records on a giant 7 foot tall \"clock\"!",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "title": "Residence Hall Rendering",
+            "date": "2016",
+            "description": "In my last year at USF working with the housing department, I created multiple 3D renderings of the \"Dorms\" (\"Residence Halls\") on campus. This was one of them. Fun fact: the rendering was done by importing models into the Half-Life 2 game engine!",
+            "imageUrl": "assets/images/projects/design/render.jpg",
             "links": [
                 {
                     "useIcon": false,
-                    "icon": "",
-                    "text": "Read the TBT Article",
-                    "url": "https://www.tampabay.com/life-culture/2020/08/27/coronavirus-hobbies-what-tampa-bay-residents-made-during-the-pandemic/"
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/render.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Housing Policies Poster",
+            "date": "2016",
+            "description": "This was a poster explaining some of the housing policies at USF. This was made during my time at the USF housing department.",
+            "imageUrl": "assets/images/projects/design/policies.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/policies.png"
+                }
+            ]
+        },
+        {
+            "title": "Campus Life Brochure",
+            "date": "2015",
+            "description": "This was the cover for a brochure USF handed out promoting living on campus.",
+            "imageUrl": "assets/images/projects/design/campuslife.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/campuslife.png"
+                }
+            ]
+        },
+        {
+            "title": "USF Housing Twitter Sign",
+            "date": "2014",
+            "description": "This was a poster advertising the USF Housing Twitter account for an event we hosted. My first graphic design project for USF's housing department!",
+            "imageUrl": "assets/images/projects/design/twitter.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/twitter.png"
+                }
+            ]
+        },
+        {
+            "title": "The Kangaroo Court",
+            "date": "2013",
+            "description": "The second in the series I like to call \"dorm art\", this was an abstract poster I made to hang in my dorm for one of my favorite songs at the time - \"Kangaroo Court\" by Capital Cities.",
+            "imageUrl": "assets/images/projects/design/posterkc.jpg",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/posterkc.jpg"
                 },
                 {
-                    "useIcon": false,
-                    "icon": "",
-                    "text": "See More on Imgur",
-                    "url": "https://imgur.com/gallery/3NY7edR"
+                    "useIcon": true,
+                    "icon": "fab fa-youtube",
+                    "text": "Listen to The Song",
+                    "url": "https://www.youtube.com/watch?v=CJinWua98NA"
                 }
             ]
         },
         {
-            "title": "Retro_Arcade",
-            "date": "2015",
-            "description": "A mini arcade cabinet! This was one of my first projects with a Raspberry Pi.",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "title": "Learning to Fly",
+            "date": "2013",
+            "description": "The first in the series I like to call \"dorm art\", this was an abstract poster I made to hang in my dorm for one of my favorite songs at the time - \"Learning to Fly\" by Pink Floyd.",
+            "imageUrl": "assets/images/projects/design/posterpf.jpg",
             "links": [
                 {
                     "useIcon": false,
-                    "icon": "",
-                    "text": "See More on Imgur",
-                    "url": "https://imgur.com/a/BYfqH"
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/posterpf.jpg"
+                },
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-youtube",
+                    "text": "Listen to The Song",
+                    "url": "https://www.youtube.com/watch?v=nVhNCTH8pDs"
+                }
+            ]
+        },
+        {
+            "title": "Commencement Booklet",
+            "date": "2012",
+            "description": "This was the cover of the commencement booklet that went our during our high school graduation. I was really proud of this one, and seeing it everywhere during our commencement was a cool experience!",
+            "imageUrl": "assets/images/projects/design/commence.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/commence.png"
+                }
+            ]
+        },
+        {
+            "title": "Manta Stand Ad",
+            "date": "2012",
+            "description": "This was an ad for our school's \"swag\" store that went in the yearbook. I'm in the middle of the group photo!",
+            "imageUrl": "assets/images/projects/design/manta.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/manta.png"
+                }
+            ]
+        },
+        {
+            "title": "Desktop Wallpaper",
+            "date": "2012",
+            "description": "During my web design class in high school, I submitted this entry in a competition to replace the default wallpaper on all computers in our school. It won! This wallpaper stayed around until the school finally moved away from 4:3 monitors a few years later.",
+            "imageUrl": "assets/images/projects/design/wallp.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fa-solid fa-arrows-maximize",
+                    "text": "See Full Size",
+                    "url": "assets/images/projects/design/wallp.png"
                 }
             ]
         }

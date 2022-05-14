@@ -1,19 +1,21 @@
 <app-header></app-header>
-<app-hero>
+<app-hero [backgroundImageUrl]="'assets/images/hero/site.jpg'">
     <span topheading>Most Recent Project</span>
     <span class="hero-header" heading>This Site!</span>
-    <span class="hero-header" description>I was shocked to realize my web portfolio hadn't changed in over 6 years! Armed with knowledge of Angular and an additional 6 years of development experience, I replaced the old site with a new, modern replacement. I think it turned out pretty great!</span>
-    <span buttontext>Learn More</span>
+    <span class="hero-header" description>I was shocked to realize my web portfolio hadn't changed in over 7 years! Armed with knowledge of Angular and an additional 7 years of development experience, I replaced the old site with a new, modern replacement. I think it turned out pretty great!</span>
+    <span buttontext>Learn More on GitHub</span>
 </app-hero>
-<app-bubble-section>
-    <span heading>Hey There, I'm James!</span>
+<app-bubble-section id="about">
+    <span heading><span>Hey There, I'm James!</span></span>
     <div content class="bubble-content">
         <p>Technology has been my passion since I was a little kid. From my start in graphic design by making animated GIFs in elementary school, to learning HTML/CSS in high school, to doing full on C# development in college, I've had a huge range of experience doing the things that I love.</p>
         <p>These days you'll find me doing mostly Angular web development, as well as a little bit of game development using C# and Unity. I also love making things - mainly using a Raspberry Pi and my 3D printer to create some cool projects. Never a dull moment for me!</p>
     </div>
 </app-bubble-section>
-<app-list-section></app-list-section>
-<app-angled-section [projectSection]="programmingProjects" [sectionColor]="'teal-gradient'"></app-angled-section>
-<app-angled-section [projectSection]="hobbyProjects" [sectionColor]="'blu-gradient'"></app-angled-section>
-<app-angled-section [sectionColor]="'salmon-gradient'"></app-angled-section>
-<app-list-section></app-list-section>
+<app-list-section [section]="skills"></app-list-section>
+<app-angled-section id="programming" [projectSection]="programmingProjects" [sectionColor]="'teal-gradient'"></app-angled-section>
+<app-angled-section id="hobbies" [projectSection]="hobbyProjects" [sectionColor]="'blu-gradient'"></app-angled-section>
+<app-angled-section id="design" [projectSection]="graphicDesignProjects" [sectionColor]="'salmon-gradient'"></app-angled-section>
+<div style="margin-top: 6rem;" id="contact">
+    <app-list-section [customListClass]="'threemax'" [section]="contact"></app-list-section>
+</div>

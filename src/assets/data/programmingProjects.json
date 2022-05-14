@@ -3,16 +3,76 @@
     "subtitle": "2015 - Present",
     "projects": [
         {
-            "title": "Dial-Up Simulator",
-            "date": "2020 | C#",
-            "description": "Party like it's 1999! This program allows you to simulate the joys of connecting to the internet through dial-up by playing authentic modem noises. It can even enable/disable your network adapter if you want an even more realistic experience!",
-            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "title": "JamesKeith.net",
+            "date": "2022 | Angular",
+            "description": "Long overdue for an update, I set out to redesign my web portfolio. The site is made with Angular and pulls from JSON files to display content.",
+            "imageUrl": "assets/images/hero/site.jpg",
             "links": [
                 {
                     "useIcon": true,
                     "icon": "fab fa-github",
-                    "text": "Learn More on Github",
+                    "text": "View Source Code",
+                    "url": "https://github.com/JKeith594/portfolio"
+                }
+            ]
+        },
+        {
+            "title": "PaintCharades",
+            "date": "2022 | Java and Angular",
+            "description": "Frustrated with someone elses' online game of drawing-charades having a untastefully dated UI and being too full of ads to enjoy, I set out to create an ad-free clone with an even more dated UI!<br><br>With a Spring Boot/Java backend and an Angular front-end, this game of charades features a fun retro style that instantly brings you back to the days of old!<br><br>You can try the live demo, but note there will be some bugs as it is still in active development!",
+            "imageUrl": "assets/images/projects/programming/paintcharades.png",
+            "links": [
+                {
+                    "useIcon": false,
+                    "icon": "fab fa-youtube",
+                    "text": "Try Live Demo",
+                    "url": "http://jameskeith.net/charades"
+                },
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "View Source Code",
+                    "url": "https://github.com/JKeith594/Paint-Charades"
+                }
+            ]
+        },
+        {
+            "title": "Dial-Up Simulator",
+            "date": "2020 | C#",
+            "description": "Party like it's 1999! This program allows you to simulate the joys of connecting to the internet through dial-up by playing authentic modem noises. It can even enable/disable your network adapter if you want an even more realistic experience!",
+            "imageUrl": "assets/images/projects/programming/dial.png",
+            "links": [
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-youtube",
+                    "text": "See Demo",
+                    "url": "https://www.youtube.com/watch?v=rzprdX7svvo"
+                },
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "View Source Code",
                     "url": "https://github.com/JKeith594/dialupsimulator"
+                }
+            ]
+        },
+        {
+            "title": "Rock Clock UI",
+            "date": "2019 | Angular/Node.JS",
+            "description": "This is the UI I created for my \"Rock Clock\" personal project (see my projects section for more info). The UI was written a whole half year before I built the actual \"clock\"!",
+            "imageUrl": "assets/images/projects/hobby/rock_clock.png",
+            "links": [
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-youtube",
+                    "text": "See Demo",
+                    "url": "https://www.youtube.com/watch?v=rBe_GUYfh5Q"
+                },
+                {
+                    "useIcon": true,
+                    "icon": "fab fa-github",
+                    "text": "View Source Code",
+                    "url": "https://github.com/JKeith594/rock-clock-angular"
                 }
             ]
         },
@@ -20,27 +80,33 @@
             "title": "ColorBlock Screensaver",
             "date": "2016 | C#",
             "description": "Remember screensavers? This little screensaver stops your screen from getting burn-in by displaying a random assortment of colors dancing across the screen. It can even show the hex code for all the graphic designer nerds out there!",
-            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "imageUrl": "assets/images/projects/programming/screensaver.png",
             "links": [
                 {
                     "useIcon": true,
+                    "icon": "fab fa-youtube",
+                    "text": "See Demo",
+                    "url": "https://www.youtube.com/watch?v=DSJO1HStBK4"
+                },
+                {
+                    "useIcon": true,
                     "icon": "fab fa-github",
-                    "text": "Learn More on Github",
+                    "text": "View Source Code",
                     "url": "https://github.com/JKeith594/ColorBlockScreensaver"
                 }
             ]
         },
         {
-            "title": "Anchor",
-            "date": "2015 | C#",
-            "description": "First Place Winner of the 2015 USF Program-A-Bull Hackathon! This Universal Windows Platform app shows what could be possible with a touch-first HTML editor. Features an easy swipe-to-preview feature and ink markup!",
-            "imageUrl": "assets/images/projects/programming/bravewater.png",
+            "title": "USF Housing Website",
+            "date": "2016 | HTML/CSS",
+            "description": "During my tenure at the University of South Florida's department of Housing & Residential Education, I completed a complete redesign of the website. The website has since been replaced, but you can see it as it was on the Internet Archive.",
+            "imageUrl": "assets/images/projects/programming/usf.png",
             "links": [
                 {
-                    "useIcon": true,
-                    "icon": "fab fa-github",
-                    "text": "Learn More on Github",
-                    "url": "https://github.com/JKeith594/anchor"
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See Archived Copy",
+                    "url": "https://web.archive.org/web/20160405070048/http://housing.usf.edu/"
                 }
             ]
         }

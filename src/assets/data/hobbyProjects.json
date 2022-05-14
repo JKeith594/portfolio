@@ -1,12 +1,13 @@
 {
     "title": "Hobby Projects",
     "subtitle": "2015 - Present",
+    "description": "Outside of work and programming I really enjoy creating new things. Here's a small subset of the things I've done in my free time.",
     "projects": [
         {
             "title": "Packard Bell Restoration",
             "date": "2022",
             "description": "I love retro technology. I restored an old Packard Bell 812CD desktop to be almost like new!",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "imageUrl": "assets/images/projects/hobby/pbell.png",
             "links": [
                 {
                     "useIcon": false,
@@ -19,9 +20,15 @@
         {
             "title": "Macintosh Pi",
             "date": "2020",
-            "description": "A \"Mac Mini\" in a whole different way! This half scale replica I built of the Macintosh LC 520 runs off a Raspberry Pi and features a 7\" LCD.",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "description": "A \"Mac Mini\" in a whole different way! This half scale replica I built of the Macintosh LC 520 runs off a Raspberry Pi and features a 7\" LCD in a custom designed 3D printed chassis!",
+            "imageUrl": "assets/images/projects/hobby/lcmini.png",
             "links": [
+                {
+                    "useIcon": false,
+                    "icon": "",
+                    "text": "See Model on Thingiverse",
+                    "url": "https://www.thingiverse.com/thing:4705315"
+                },
                 {
                     "useIcon": false,
                     "icon": "",
@@ -34,7 +41,7 @@
             "title": "The Rock Clock",
             "date": "2020",
             "description": "Featured in the Tampa Bay Times! This interactive jukebox showcases 12 of my favorite records on a giant 7 foot tall \"clock\"!",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "imageUrl": "assets/images/projects/hobby/rock_clock.png",
             "links": [
                 {
                     "useIcon": false,
@@ -54,7 +61,7 @@
             "title": "Retro_Arcade",
             "date": "2015",
             "description": "A mini arcade cabinet! This was one of my first projects with a Raspberry Pi.",
-            "imageUrl": "assets/images/projects/hobby/pb.png",
+            "imageUrl": "assets/images/projects/hobby/arcade.png",
             "links": [
                 {
                     "useIcon": false,

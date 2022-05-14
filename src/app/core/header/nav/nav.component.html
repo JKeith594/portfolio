@@ -2,10 +2,10 @@
     <button [class.visible]="!navVisible" class="hamburger" (click)="navVisible = !navVisible"><i class="fa fa-bars"></i></button>
     <ul [class.visible]="navVisible">
         <li class="invisible"><a href="" (click)="navVisible = !navVisible"><i class="fas fa-times-circle"></i></a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Programming</a></li>
-        <li><a href="#">Hobby Projects</a></li>
-        <li><a href="#">Graphic Design</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a (click)="clickNavItem()" href="#about">About</a></li>
+        <li><a (click)="clickNavItem()" href="#programming">Programming</a></li>
+        <li><a (click)="clickNavItem()" href="#hobbies">Hobby Projects</a></li>
+        <li><a (click)="clickNavItem()" href="#design">Graphic Design</a></li>
+        <li><a (click)="clickNavItem()" href="#contact">Contact</a></li>
     </ul>
 </nav>

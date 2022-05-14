@@ -2,6 +2,7 @@
     <div class="section-heading">
         <h1>{{projectSection.title}}</h1>
         <h2>{{projectSection.subtitle}}</h2>
+        <p *ngIf="projectSection.description != ''">{{projectSection.description}}</p>
     </div>
     <ul class="projects">
         <li *ngFor="let project of projectSection.projects"><app-project [project]="project"></app-project></li>

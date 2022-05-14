@@ -9,9 +9,16 @@ export class HeroComponent implements OnInit {
   @Input()
   showButton: boolean = false;
 
+  @Input()
+  backgroundImageUrl: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getBackgroundUrlStyle(url: string): string {
+    return "background-image: url(" + url + ");";
   }
 
 }

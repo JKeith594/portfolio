@@ -33,12 +33,34 @@ section.list-section {
 
         @include breakpoint(1100px, min) {
             grid-template-columns: repeat(5, 1fr);
+
+            &.threemax {
+                grid-template-columns: repeat(3, 1fr);
+            }
         }
         
         li {
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            a {
+                text-decoration: none;
+                div {
+                    color: #f8f8f8;
+                }
+
+                &:hover {
+                    div {
+                        border: 0.25rem solid #cb21a3;
+                    }
+
+                    h2 {
+                        background: #cb21a3;
+                        color: #f8f8f8;
+                    }
+                }
+            }
             
             div {
                 z-index: 2;
@@ -62,26 +84,6 @@ section.list-section {
                 }
                 i {
                     font-size: 2.75rem;
-                }
-
-                &.html {
-                    background: #dd4b25;
-                }
-
-                &.csharp {
-                    background: #009404;
-                }
-
-                &.java {
-                    background: #5283a2;
-                }
-
-                &.angular {
-                    background: #b9002d;
-                }
-
-                &.photoshop {
-                    background: #001d34;
                 }
             }
 

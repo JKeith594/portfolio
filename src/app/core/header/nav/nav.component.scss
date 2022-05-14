@@ -29,20 +29,21 @@ nav {
             opacity: 1;
         }
 
-        @include breakpoint(1023px, min) {
+        @include breakpoint(1080px, min) {
             display: none;
         }
     }
     ul {
         margin-right: -1rem;
-        @include breakpoint(1023px, max) {
+        @include breakpoint(1080px, max) {
             opacity: 0;
             width: 0;
             height: 0;
+            display: none;
         }
         
         &.visible {
-            @include breakpoint(1023px, max) {
+            @include breakpoint(1080px, max) {
                 width: auto;
                 height: auto;
                 padding: 2rem 2.5rem;
@@ -68,12 +69,12 @@ nav {
                 }
             }
         }
-        @include breakpoint(1023px, min) {
+        @include breakpoint(1080px, min) {
             display: inline-block;
         }
         li {
             &.invisible {
-                @include breakpoint(1023px, min) {
+                @include breakpoint(1080px, min) {
                     display: none;
                 }
                 

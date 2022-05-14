@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  navVisible: boolean = true;
+  navVisible: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickNavItem() {
+    if(this.navVisible) {
+      this.navVisible = false;
+    }
   }
 
 }

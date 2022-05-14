@@ -1,0 +1,45 @@
+{
+    "title": "Some of my Skills Include...",
+    "items": [
+        {
+            "title": "HTML/CSS",
+            "subTitle": "Since 2010",
+            "useIconClass": true,
+            "icon": "fas fa-code",
+            "color": "#dd4b25",
+            "url": ""
+        },
+        {
+            "title": "Photoshop",
+            "subTitle": "Since 2010",
+            "useIconClass": false,
+            "icon": "Ps",
+            "color": "#001d34",
+            "url": ""
+        },
+        {
+            "title": "C#",
+            "subTitle": "Since 2015",
+            "useIconClass": false,
+            "icon": "C#",
+            "color": "#009404",
+            "url": ""
+        },
+        {
+            "title": "Java",
+            "subTitle": "Since 2018",
+            "useIconClass": true,
+            "icon": "fab fa-java",
+            "color": "#5283a2",
+            "url": ""
+        },
+        {
+            "title": "Angular 2+",
+            "subTitle": "Since 2018",
+            "useIconClass": true,
+            "icon": "fab fa-angular",
+            "color": "#b9002d",
+            "url": ""
+        }
+    ]
+}
