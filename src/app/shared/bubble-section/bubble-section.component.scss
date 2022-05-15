@@ -20,9 +20,9 @@ section.bubble-section {
         margin-bottom: 3rem;
         border: 0.25rem solid #fff;
 
-        @include lightmode() {
-            border: 0.25rem solid #000;
-        }
+        // @include lightmode() {
+        //     border: 0.25rem solid #000;
+        // }
 
         @include breakpoint(920px, min) {
             margin-right: 3rem;

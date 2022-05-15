@@ -2,6 +2,7 @@
 
 section.hero {
     background-size: cover;
+    color: #fff;
     .gradient-overlay {
         @extend .standard-side-padding;
         min-height: 32rem;

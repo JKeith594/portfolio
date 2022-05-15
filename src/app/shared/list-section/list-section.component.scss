@@ -73,10 +73,12 @@ section.list-section {
                 justify-content: center;
                 font-weight: 800;
                 font-size: 2.25rem;
+                
 
-                @include lightmode() {
-                    border: 0.25rem solid #000000;
-                }
+                // @include lightmode() {
+                //     border: 0.25rem solid #000000;
+                //     color: #fff;
+                // }
 
                 span {
                     display: block;
@@ -102,10 +104,10 @@ section.list-section {
                 padding-bottom: 0.5rem;
                 border-radius: 1rem;
 
-                @include lightmode() {
-                    color: #fff;
-                    background: #000;
-                }
+                // @include lightmode() {
+                //     color: #fff;
+                //     background: #000;
+                // }
 
                 span {
                     margin-top: 0.25rem;

@@ -8,9 +8,9 @@ section.angled-section {
     margin-top: 4rem;
     margin-bottom: 4rem;
 
-    @include lightmode() {
-        color: #000;
-    }
+    // @include lightmode() {
+    //     color: #000;
+    // }
     &:before {
         content: '';
         
@@ -45,6 +45,18 @@ section.angled-section {
         &:after {
             background:rgba(27,2,27,1);
         }
+
+        // @include lightmode() {
+        //     background: rgb(1,48,51);
+        //     background: linear-gradient(180deg, rgb(77, 153, 158) 0%, rgb(151, 92, 151) 100%);
+        //     &:before {
+        //         background:rgb(77, 153, 158);
+        //     }
+
+        //     &:after {
+        //         background:rgb(151, 92, 151)
+        //     }
+        // }
     }
 
     &.salmon-gradient {
@@ -72,6 +84,7 @@ section.angled-section {
     }
 
     .section-heading {
+        color: #fff;
         h1 {
             font-size: 3rem;
             font-weight: 800;
